@@ -1,0 +1,56 @@
+unit Unit5;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, DB, ADODB;
+
+type
+  TForm5 = class(TForm)
+    Button1: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    DataSource1: TDataSource;
+    ADOConnection1: TADOConnection;
+    ADOQuery1: TADOQuery;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form5: TForm5;
+
+implementation
+
+uses Unit6;
+
+{$R *.dfm}
+
+procedure TForm5.Button1Click(Sender: TObject);
+begin
+if (edit1.Text <> '') and (edit2.Text <> '')and (edit3.Text <> '')and (edit4.Text <> '') then
+  begin
+    ADOQuery1.SQL.Text := 'INSERT INTO `buy` (`Имя`, `Фамилия`, `Телефон`, `Снять/сдать`) VALUES (:Field1Value, :Field2Value, :Field3Value, :Field4Value)';
+    ADOQuery1.Parameters.ParamByName('Field1Value').Value := edit1.Text;
+    ADOQuery1.Parameters.ParamByName('Field2Value').Value := edit2.Text;
+    ADOQuery1.Parameters.ParamByName('Field3Value').Value := edit3.Text;
+    ADOQuery1.Parameters.ParamByName('Field4Value').Value := edit4.Text;
+    ADOQuery1.ExecSQL;
+    Form6.Show;
+  end
+  else
+    ShowMessage('Пожалуйста, введите данные!');
+end;
+
+end.

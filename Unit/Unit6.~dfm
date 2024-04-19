@@ -1,0 +1,59 @@
+object Form6: TForm6
+  Left = 311
+  Top = 125
+  Width = 420
+  Height = 595
+  Caption = 'Form6'
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 144
+    Top = 8
+    Width = 133
+    Height = 51
+    Caption = #1047#1072#1103#1074#1082#1072
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWhite
+    Font.Height = -37
+    Font.Name = 'Montserrat'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 17
+    Top = 104
+    Width = 371
+    Height = 204
+    Alignment = taCenter
+    Caption = #1057#1087#1072#1089#1080#1073#1086'! '#10#10#1057' '#1074#1072#1084#1080' '#1089#1074#1103#1078#1091#1090#1089#1103' '#1074' '#1073#1083#1080#1078#1072#1081#1096#1077#1077' '#1074#1088#1077#1084#1103'!'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWhite
+    Font.Height = -37
+    Font.Name = 'Montserrat'
+    Font.Style = []
+    ParentFont = False
+    WordWrap = True
+  end
+  object Button1: TButton
+    Left = 72
+    Top = 428
+    Width = 272
+    Height = 48
+    Caption = #1042#1099#1081#1090#1080
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -37
+    Font.Name = 'Montserrat'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+end

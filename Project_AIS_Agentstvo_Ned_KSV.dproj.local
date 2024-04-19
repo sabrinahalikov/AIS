@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.385,C:\Users\sabri\OneDrive\Рабочий стол\expert3\Project1.dproj=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Project_AIS_Agentstvo_Ned_KSV.dproj</Transaction>
+    <Transaction>2024.04.12 10:30:03.888,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitMain.pas=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit1.pas</Transaction>
+    <Transaction>2024.04.12 10:30:03.888,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitMain.dfm=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit1.dfm</Transaction>
+    <Transaction>2024.04.12 10:30:16.955,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitFormOne.dfm=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit2.dfm</Transaction>
+    <Transaction>2024.04.12 10:30:16.955,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitFormOne.pas=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit2.pas</Transaction>
+    <Transaction>2024.04.12 10:30:27.381,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitKlient.dfm=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit4.dfm</Transaction>
+    <Transaction>2024.04.12 10:30:27.381,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitKlient.pas=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit4.pas</Transaction>
+    <Transaction>2024.04.12 10:30:37.597,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitFormTwo.dfm=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit5.dfm</Transaction>
+    <Transaction>2024.04.12 10:30:37.597,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitFormTwo.pas=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit5.pas</Transaction>
+    <Transaction>2024.04.12 10:30:47.880,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitFormThree.pas=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit6.pas</Transaction>
+    <Transaction>2024.04.12 10:30:47.880,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitFormThree.dfm=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit6.dfm</Transaction>
+    <Transaction>2024.04.12 10:31:06.620,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitSotrudnik.dfm=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit8.dfm</Transaction>
+    <Transaction>2024.04.12 10:31:06.620,C:\Users\sabri\OneDrive\Рабочий стол\expert3\UnitSotrudnik.pas=C:\Users\sabri\OneDrive\Рабочий стол\expert3\Unit8.pas</Transaction>
+  </Transactions>
+</BorlandProject>

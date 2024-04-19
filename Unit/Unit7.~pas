@@ -1,0 +1,49 @@
+unit Unit7;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm7 = class(TForm)
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Button1: TButton;
+    Label3: TLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+uses Unit8;
+
+{$R *.dfm}
+
+
+
+procedure TForm7.Button1Click(Sender: TObject);
+var
+  Login, Password: string;
+begin
+Login:='1'; Password:='1';
+ if (edit1.text=login) and (edit2.text=password) then begin
+    form8.show;
+    close;
+  edit1.text:='';
+  edit2.text:='';
+  end
+  else
+  showmessage('Неверные данные!');
+end;
+end.
